@@ -1,0 +1,131 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar-container{
+    background-color: rgb(34, 34, 34);
+    z-index: 2;
+}
+.nav-notice:hover{
+    background-color: rgb(59, 59, 59);
+}
+.navbar-extent
+{
+    background-color: rgba(185, 185, 185, 0.432);
+}
+.banner-container{
+    background-color: rgb(255, 255, 255);
+}
+.fullscreen-banner {
+    height: 100vh;
+    margin-bottom: 55px;
+}
+
+.introbtn{
+    background-color: #0650A8;
+}
+.introbtn2{
+    background-color: #3CC048;
+}
+.introbtn2:hover{
+    background-color: #0650A8;
+    border-color: #3CC048;
+    color: white!important;
+}
+.introbtn:hover{
+    background-color: #3CC048;
+    border-color: #0650A8;
+    color: white!important;
+}
+.not-border{
+    background-color: #13621998;
+    z-index: 1;
+    
+}
+
+.not-header{
+    color:#0650A8;
+    font-size: 30px;
+}
+
+.abdes{
+    text-align: justify;
+    font-weight: bold;
+
+}
+.social{
+    color: gray;
+    text-decoration: none;
+}
+.social:hover
+{
+    color: #0650A8;
+}
+.nlist{
+    text-decoration: none;
+    color: white;
+}
+.nlist:hover{
+    text-decoration: none;
+    color: lightgray;
+}
+.nlist-div{
+    background-color: grey;
+}
+
+/* project hover effect */
+.img-gal {
+    position: relative;
+    width: 100%;
+  }
+  
+  .image {
+    opacity: 0.90;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: 0.5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .img-gal:hover .image {
+    opacity: 1;
+    
+  }
+  
+  .img-gal:hover .middle {
+    opacity: 1;
+    background-color: #347d6dd7;
+    
+  }
+  
+  .text {
+    color: rgba(255, 255, 255, 0.37);
+    font-size: 50px;
+    padding: 16px 32px;
+    text-align: left;
+  }
+
+  .news-container{
+      background-color: #2e2e2e;
+  }
+  .card-back
+  {
+      background-color: #3f3f3f;
+  }
+  /* Form */
+  .border-base{
+      background-color: #0650A8;
+  }
+  
